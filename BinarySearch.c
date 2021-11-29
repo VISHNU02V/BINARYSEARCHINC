@@ -1,6 +1,6 @@
 // To perform binary search
 
-#include <Stdio.h>
+#include <stdio.h>
 void sort(int a[],int n){                        //SORTING.......
     int i=1;
     for(i=1;i<n;i++){
