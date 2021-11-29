@@ -69,7 +69,6 @@ void main(){
         }
         printf("\n\n\nDo you want to continue:");
         scanf("%s",&c);
-
     }while(c=='y');       
 
 }
