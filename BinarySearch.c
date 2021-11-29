@@ -5,13 +5,9 @@ void sort(int a[],int n){                        //SORTING.......
     int i=1;
     for(i=1;i<n;i++){
         if(a[i-1]>a[i]){
-            for(i=1;i<n;i++){
-                if(a[i-1]>a[i]){                        
-                    a[i-1]=a[i-1]-a[i];
-                    a[i]=a[i-1]+a[i];
-                    a[i-1]=a[i]-a[i-1];
-                }
-            }
+            a[i-1]=a[i-1]-a[i];
+            a[i]=a[i-1]+a[i];
+            a[i-1]=a[i]-a[i-1];
         } 
         else{
             continue;
